@@ -1,0 +1,19 @@
+
+* { font-family: arial, sans-serif; }
+#bmi-form * { box-sizing: border-box; }
+#bmi-form input[type=text], #bmi-form input[type=number] { padding: 5px; }
+#bmi-form input[type=number] { width: 100%; }
+#bmi-form {
+  border: 1px solid rgb(195, 241, 234);
+  background: #f2f2f2;
+  padding: 30px;
+  max-width: 400px;
+}
+#bmi-form .bmi-label {
+  color: #fcad04;
+  font-weight: 700;
+  margin: 10px 0;
+}
+#bmi-form .bmi-row {
+  margin-bottom: 20px;
+}
